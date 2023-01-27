@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="473.0" prefWidth="813.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Meniu">
+   <children>
+      <ImageView fitHeight="524.0" fitWidth="885.0" layoutX="-1.0" layoutY="-9.0" preserveRatio="true">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <image>
+            <Image url="@data/bg-menu.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="rent" layoutX="38.0" layoutY="71.0" mnemonicParsing="false" onAction="#rent" prefHeight="50.0" prefWidth="150.0" text="Inchiriaza vehicul">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Button>
+      <Button fx:id="termsAndCondition" layoutX="38.0" layoutY="194.0" mnemonicParsing="false" onAction="#termsAndConditions" prefHeight="50.0" prefWidth="150.0" text="Termeni &amp; Conditii">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="38.0" layoutY="134.0" mnemonicParsing="false" onAction="#promo" prefHeight="50.0" prefWidth="150.0" text="Informatii reduceri!">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Button>
+      <Button fx:id="logoutBtn" layoutX="38.0" layoutY="256.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="150.0" text="IESIRE DIN CONT" textFill="#d35b5b">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button fx:id="addVehicle" layoutX="241.0" layoutY="134.0" mnemonicParsing="false" onAction="#addVeh" prefHeight="50.0" prefWidth="150.0" text="Adauga vehicul" AnchorPane.leftAnchor="241.0" AnchorPane.topAnchor="134.0">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></Button>
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ovidiu's Garage - Car Rental">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,5 @@
+4
+1/Ford/Negru/Sedan/Doar clima/0//25
+2/BMW/Alb/Competition/Full Option/0/bmw/35
+3/Ford/Albastru/Hatchback/Clima si incalzire in scaune/0/ford/20
+4/Masserati/Gri/Coupe/Full Option + Pachet Phantom/0/maserati/55

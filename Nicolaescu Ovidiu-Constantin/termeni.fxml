@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="610.0" prefWidth="918.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Termeni">
+   <children>
+      <Label layoutX="426.0" layoutY="165.0" text="Termeni si Conditii!">
+         <font>
+            <Font size="27.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.6540284360189573" endY="0.07582938388625593" startX="0.6540284360189574" startY="0.4218009478672986">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="back" layoutX="800.0" layoutY="538.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="75.0" text="Back" />
+      <Label layoutX="34.0" layoutY="339.0" text="1. La bordul autovehiculului, trebuie sa fie in permanenta prezente actele acestuia.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="366.0" text="2. Durata contractului este de 24 ore, intarzierea duce la penalizari.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="393.0" text="3. Contractul poate fii prelungit pentru o perioada determinata de timp, la dorinta clientului.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="420.0" text="4. Taxele de drum nu sunt incluse in pretul masini, amenziile duc la penalizari.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="447.0" text="5. Daca clientul produce daune vehiculului, garantia nu mai este valabila!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="474.0" text="6. Asigurarea cuprinde toate daunele ce sunt cauzate din cauza altui participant la trafic.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="501.0" text="7. Asigurarea nu cuprinde disparitia lucruriilor din masina, zgarieturi sau pene de roti.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="549.0" text="Daca exista nelamuriri va rugam sa sunati la showroom-ul nostru!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="228.0" fitWidth="471.0" layoutX="-21.0" layoutY="51.0">
+         <image>
+            <Image url="@data/terms.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
